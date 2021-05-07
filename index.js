@@ -6,7 +6,8 @@
 // let count = firstBatch + secondBatch
 // console.log(count)
 
-let myAge = 35
-let humanDogRatio = 7
-let myDogAge = myAge * humanDogRatio
-console.log(myDogAge)
+function increment() {
+
+console.log("The button is clicked")
+
+}
