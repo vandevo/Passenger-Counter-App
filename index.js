@@ -1,4 +1,4 @@
-// document.getElementById("count-el").innerText = 5
+
 
 // let firstBatch = 5
 // let secondBatch = 7
@@ -20,10 +20,16 @@ fuction incrementBtn() {
 } */
 
 let count = 0
+let countEl = document.getElementById("count-el")
+let audio = new Audio("/sound/mose.mp3");
+
+function play() {
+  audio.play();
+}
 function increment() {
     
     count = count + 1
-     
+    countEl.innerText = count
+
     
 }
-increment()
