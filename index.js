@@ -19,6 +19,7 @@ fuction incrementBtn() {
 
 } */
 
+let saveEl = document.getElementById("save-el")
 let count = 0
 let countEl = document.getElementById("count-el")
 let audio = new Audio("/sound/click.mp3");
@@ -32,4 +33,8 @@ function increment() {
     countEl.innerText = count
 
     
+}
+function save() {
+let countDash = count + " - "
+saveEl.innerText = countDash
 }
