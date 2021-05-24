@@ -21,7 +21,7 @@ fuction incrementBtn() {
 
 let count = 0
 let countEl = document.getElementById("count-el")
-let audio = new Audio("/sound");
+let audio = new Audio("/sound/click.mp3");
 
 function play() {
   audio.play();
