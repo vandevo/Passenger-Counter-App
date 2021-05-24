@@ -36,5 +36,5 @@ function increment() {
 }
 function save() {
 let countDash = count + " - "
-saveEl.innerText = countDash
+saveEl.innerText += countDash
 }
