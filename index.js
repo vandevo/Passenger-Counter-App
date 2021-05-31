@@ -24,17 +24,21 @@ let count = 0
 let countEl = document.getElementById("count-el")
 let audio = new Audio("/sound/click.mp3");
 
+
 function play() {
   audio.play();
 }
 function increment() {
     
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 
     
 }
 function save() {
 let countDash = count + " - "
-saveEl.innerText += countDash
+saveEl.textContent += countDash
+countEl.textContent = 0
+count = 0
 }
+
